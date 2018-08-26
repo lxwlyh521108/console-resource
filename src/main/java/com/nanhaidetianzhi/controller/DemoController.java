@@ -16,7 +16,7 @@ public class DemoController {
         for (int i=0;i<1000;i++){
             sender.send(i);
         }
-          return "ok";
+          return "success";
     }
     @RequestMapping("docker")
     public  String docker() {
